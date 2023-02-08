@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/557302077e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+    <a id="navbar-logo" href="./index.html">TodoApp</a>
+        <svg id="navbar-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>    
+        <div id="navbar-links-container">
+        <a class="navbar-link" href="">About</a>
+        <a class="navbar-link" href="">App</a>
+        </div>
+    </nav>
+
+    <main class="main-list">
+        <div class="wrapper">
+            <header>Todo App</header>
+            <div class="inputField">
+                <input type="text" placeholder="Add you new task">
+                <button><i class="fa-solid fa-plus"></i></button> 
+            </div>
+            <ul class="todoList">
+                <li>Hacer oficios<span><i class="fas fa-trash"></i></span></li>
+                <li>Entrenar<span><i class="fas fa-trash"></i></span></li>
+                <li>Ir al gym<span><i class="fas fa-trash"></i></span></li>
+                <li>Botar la basura<span><i class="fas fa-trash"></i></span></li>
+                <li>Comprar comida<span><i class="fas fa-trash"></i></span></li>
+            </ul>
+            <div id="footer">
+                <div id="footer1">
+                    <p>total:</p>
+                </div>
+                <div id="footer2">
+                <p>Incompleted:</p>
+                </div>
+                    <div id="footer3">
+                    <p>Completed:</p>
+                </div>
+            </div>    
+        </div>
+        
+    </main>
+    
+</body>
+</html>
